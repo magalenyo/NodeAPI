@@ -14,11 +14,8 @@ router.post('/user', (req, res) => {
         {
             "userId": 1
         }
-    )
+    );
 
-    // res.send({
-    //     "userId": 1
-    // })
 })
 
 module.exports = router;
